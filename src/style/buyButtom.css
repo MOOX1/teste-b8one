@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.buyButtom {
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    background-color: #40b25c;
+    width: 240px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    margin-top: 32px;
+    font-family: inter, sans-serif;
+    font-weight: 900;
+}
+
+.buyButtom:hover {
+    background-color: #1e9631;
+}
+
+.linkCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+}
+
+.icon {
+    display: none;
+    position: relative;
+    bottom: 2px;
+}
+
+.linkCenter p {
+    padding-left: 10px;
+}
+
+.buttomBuy {
+    display: none;
+}
+
+.buttomBuy:checked + label .buyButtom .icon {
+    display: flex;
+}
+
+.buttomBuy:checked + label .buyButtom {
+    background-color: #a3f9b9;
+    color: black;
+    font-weight: 900;
+}

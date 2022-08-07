@@ -1,0 +1,31 @@
+.heart {
+    position: absolute;
+}
+
+.heart:hover path {
+    stroke: #f3151b;
+}
+
+.heart:hover circle {
+    fill: #ffcae0;
+}
+
+.heartLabel:checked + label .heart circle {
+    fill: #f3151b;
+}
+
+.heartLabel:checked + label .heart path {
+    stroke: #f3151b;
+}
+
+.heartLabel:checked + label:hover .heart path {
+    stroke: #e20f15;
+}
+
+.heartLabel:checked + label:hover .heart circle {
+    fill: #e20f15;
+}
+
+.heartLabel {
+    display: none;
+}
