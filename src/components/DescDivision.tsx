@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import CurrencyBRL from "./currencyBRL";
 
 const DescDivision = (productDescPrice: number, installments: number) => {
